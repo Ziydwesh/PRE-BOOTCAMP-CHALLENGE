@@ -1,5 +1,5 @@
 function test3(c, d) {
-    return ((c ==3 || d == 3) || (c + d == 3));
+    return ((c ==3 || d == 3) && (c + d == "3"));
 }
 
 console.log(test3(3, 3))
